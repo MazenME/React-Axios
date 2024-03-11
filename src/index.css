@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap");
+*{
+  box-sizing: border-box !important;
+}
+body {
+  background-color: #131722 !important;
+  color: aliceblue !important;
+  
+  letter-spacing: 1.3px;
+}
+
+.bg {
+  background-color: #11141e !important;
+}
+
+
+.Montserrat {
+  font-family: 'Montserrat Alternates', sans-serif !important;
+}
+.oswald {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color:#3b4364 !important;
+    outline: 0;
+    box-shadow: 0 0 0 2.5px #2a335b !important;
+}
+
+.btn{
+  transition: all 0.3s ;
+}
+
+.btnn:hover{
+  background-color: #3b4364 !important;
+  color: #fff !important;
+}
+input {
+  background-color: aliceblue !important;
+  color: #181e2d !important;
+  letter-spacing: 1.2px;
+  font-weight: 500 !important;
+}
+
+i {
+  cursor: pointer;
+}
+
+.cursor {
+  
+  cursor: pointer;
+  
+}
+.margin {
+  margin:auto !important;
+}
+
+.des{
+  line-height: 22px;
+  letter-spacing: 1.3px;
+  font-weight: 300;
+  color: #cdcdcd;
+}
+
+.color{
+  color: #f2f1f1 !important;
+}
+
+.absoluteIcon {
+  
+  padding:0px;
+  font-size: 38px;
+  position: absolute;
+top: -12px;
+right: -11px;
+}
+
+.absoluteRate{
+  padding: 3px;
+  text-align: center;
+  font-size: 9.5px;
+  position: absolute;
+  top: 12px;
+  right: 9px;
+}
+
+@media (max-width: 768px) {
+  .center {
+    text-align: center !important;
+  }
+
+}
+@media (max-width: 451px) {
+  .marginnnn {
+    margin: 0px auto !important;
+  }
+
+  .textooo {
+    text-align: center !important;
+  }
+}
